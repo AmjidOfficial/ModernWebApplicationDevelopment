@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Learning Journey</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>My Personal Portfolio</h1>
+    <p>Welcome to my learning journey website</p>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#media">Multimedia</a> |
+        <a href="#faq">FAQ</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+</header>
+
+<!-- MAIN -->
+<main>
+
+<!-- HOME -->
+<section id="home">
+    <h2>Home</h2>
+
+    <figure>
+      <img src="images/muhammad-amjid.png" alt="Muhammad Amjid" width="200">
+      <figcaption>This is my profile picture</figcaption>
+    </figure>
+
+    <form>
+        <label for="profileUpload">Upload your picture:</label>
+        <input type="file" id="profileUpload" name="profileUpload" accept="image/*">
+    </form>
+
+    <p>
+        Hello! I am learning <strong>HTML</strong> and building my first portfolio.
+        I enjoy <em>web development</em> and creating real projects.
+    </p>
+</section>
+
+<hr>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+
+    <p><b>Education:</b> MBA Executive Marketing / MA Islamic Studies</p>
+    <p><b>Interests:</b> Web & Apps Development</p>
+    <p><b>Goals:</b> Become a professional full-stack developer</p>
+</section>
+
+<hr>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS (Learning)</li>
+        <li>JavaScript (Basic)</li>
+    </ul>
+
+    <h3>Soft Skills</h3>
+    <ul>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+    </ul>
+
+    <h3>Learning Roadmap</h3>
+    <ol>
+        <li>HTML Basics</li>
+        <li>CSS Basics</li>
+        <li>JavaScript</li>
+  
+    </ol>
+</section>
+
+<hr>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <table border="1" cellpadding="8">
+
+        <caption>My Project List</caption>
+
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Technology</th>
+                <th>Month/Year</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>SalesPulse</td>
+                <td>Gemini AI Studio</td>
+                <td>Feb to Mar -2026</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Portfolio Website</td>
+                <td>HTML</td>
+                <td>2026</td>
+                <td>In Progress </td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>2026</td>
+                <td>In Progress </td>
+            </tr>
+
+            <tr>
+                <td>Sales & Distribution Management System (ERP)</td>
+                <td>HTML</td>
+                <td>2026</td>
+                <td>Planning</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">Total Projects: 4</td>
+            </tr>
+        </tbody>
+
+    </table>
+</section>
+
+<hr>
+
+<!-- MULTIMEDIA -->
+<section id="media">
+    <h2>Multimedia</h2>
+
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>
+
+    <h3>Video</h3>
+    <video width="300" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <h3>YouTube Video</h3>
+    <iframe width="300" height="200"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+    </iframe>
+
+    <h3>Google Map</h3>
+    <iframe
+        src="https://www.google.com/maps/embed?pb="
+        width="300"
+        height="200">
+    </iframe>
+</section>
+
+<hr>
+
+<!-- PROGRESS -->
+<section>
+    <h2>Daily Progress</h2>
+
+    <p>HTML Learning Progress</p>
+    <progress value="80" max="100"></progress>
+
+    <p>Productivity Level</p>
+    <meter value="70" min="0" max="100"></meter>
+</section>
+
+<hr>
+
+<!-- FAQ -->
+<section id="faq">
+    <h2>FAQ</h2>
+
+    <details>
+        <summary>Who am I?</summary>
+        <p>I am a student learning web development.</p>
+    </details>
+
+    <details>
+        <summary>What am I learning?</summary>
+        <p>I am learning HTML, CSS, JavaScript.</p>
+    </details>
+
+    <details>
+        <summary>My goal?</summary>
+        <p>To become a full stack developer.</p>
+    </details>
+
+    <details>
+        <summary>Do I practice daily?</summary>
+        <p>Yes, I practice coding every day.</p>
+    </details>
+
+    <details>
+        <summary>Do I like coding?</summary>
+        <p>Yes, I enjoy building websites.</p>
+    </details>
+</section>
+
+<hr>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" required><br><br>
+
+        <label>Age:</label><br>
+        <input type="number"><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JS<br><br>
+
+        <label>Country:</label><br>
+        <select>
+            <option>Pakistan</option>
+            <option>India</option>
+            <option>UK</option>
+        </select><br><br>
+
+        <label>Message:</label><br>
+        <textarea></textarea><br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</section>
+
+</main>
+
+<hr>
+
+<!-- FOOTER -->
+<footer>
+    <p>&copy; 2026 My Portfolio</p>
+
+    <p>Email: <a href="mailto:amjid.psh@gmail.com">amjid.psh@gmail.com</a></p>
+
+    <p>Phone: <a href="tel:+923149198403">+92 314 919 8403</a></p>
+
+    <p>
+        Follow me:
+        <a href="https://www.linkedin.com/in/amjid1988/">LinkedIn</a>
+    </p>
+</footer>
+
+</body>
+
+</html>
